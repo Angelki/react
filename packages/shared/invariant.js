@@ -16,7 +16,7 @@
  * The invariant message will be stripped in production, but the invariant
  * will remain to ensure logic does not differ in production.
  */
-
+//   https://github.com/facebook/react/pull/15071
 export default function invariant(condition, format, a, b, c, d, e, f) {
   throw new Error(
     'Internal React error: invariant() is meant to be replaced at compile ' +

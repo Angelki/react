@@ -5,7 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+//  当前版本号
 import ReactVersion from 'shared/ReactVersion';
+//  定义的独一无二的内部对象类型
 import {
   REACT_FRAGMENT_TYPE,
   REACT_PROFILER_TYPE,
@@ -13,7 +15,7 @@ import {
   REACT_SUSPENSE_TYPE,
   REACT_SUSPENSE_LIST_TYPE,
 } from 'shared/ReactSymbols';
-
+// 两个基类
 import {Component, PureComponent} from './ReactBaseClasses';
 import {createRef} from './ReactCreateRef';
 import {forEach, map, count, toArray, only} from './ReactChildren';
